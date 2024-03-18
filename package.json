@@ -1,5 +1,5 @@
 {
-  "name": "IDK 1",
+  "name": "COol mods",
   "version": "1.0.0",
   "description": "Example typescript mod for eaglerforge.",
   "scripts": {
@@ -7,7 +7,7 @@
     "build-bun": "bun build --bundle ./src/main.ts --outdir=out/ --outfile=out/plugin.js --sourcemap=inline --watch --target browser --entry-naming evokerkingsmod.js",
     "build-es": "esbuild --bundle ./src/main.ts --outfile=out/plugin.js --sourcemap=inline --watch=forever"
   },
-  "author": "your name",
+  "author": "evokerking",
   "devDependencies": {
     "css-loader": "^6.8.1",
     "ts-loader": "^9.4.4",
