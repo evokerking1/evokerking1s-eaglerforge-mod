@@ -1,7 +1,7 @@
 import { logToChat } from "./chatLogger";
 import { actualCommands } from "./actualCommands";
 export function handle(msg: string) {
-  if (msg.startsWith(".")) {
+  if (msg.startsWith("e!")) {
     var args = msg.split(" ");
     args[0].slice(1);
 
