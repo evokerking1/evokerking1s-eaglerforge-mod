@@ -1,0 +1,7 @@
+// src/Main.ts
+ModAPI.displayToChat({ msg: "hello, this is eaglerforge!" });
+ModAPI.logger.loginfo({ string: "you can log a string to console" });
+ModAPI.uwuify({ string: "and even uwuify a string?" });
+
+//# debugId=CB3DB5CFF6C05BFA64756e2164756e21
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsiLi4vc3JjL01haW4udHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbCiAgICAiTW9kQVBJLmRpc3BsYXlUb0NoYXQoe21zZzogXCJoZWxsbywgdGhpcyBpcyBlYWdsZXJmb3JnZSFcIn0pXG5Nb2RBUEkubG9nZ2VyLmxvZ2luZm8oe3N0cmluZzogXCJ5b3UgY2FuIGxvZyBhIHN0cmluZyB0byBjb25zb2xlXCJ9KVxuTW9kQVBJLnV3dWlmeSh7c3RyaW5nOiBcImFuZCBldmVuIHV3dWlmeSBhIHN0cmluZz9cIn0pIgogIF0sCiAgIm1hcHBpbmdzIjogIjtBQUFBLE9BQU8sY0FBYyxFQUFDLEtBQUssOEJBQTZCLENBQUM7QUFDekQsT0FBTyxPQUFPLFFBQVEsRUFBQyxRQUFRLGtDQUFpQyxDQUFDO0FBQ2pFLE9BQU8sT0FBTyxFQUFDLFFBQVEsNEJBQTJCLENBQUM7IiwKICAiZGVidWdJZCI6ICJDQjNEQjVDRkY2QzA1QkZBNjQ3NTZlMjE2NDc1NmUyMSIsCiAgIm5hbWVzIjogW10KfQ==
