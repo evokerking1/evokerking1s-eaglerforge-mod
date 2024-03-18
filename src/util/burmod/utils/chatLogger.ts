@@ -1,4 +1,4 @@
-import { clientName } from "./clientName.ts"
+import { clientName } from "./clientName"
 
 export function logToChat(msg) {
   //@ts-ignore

@@ -3,7 +3,7 @@ import * as fullbrightMOD from "../cheats/autofish.ts";
 import * as stepMOD from "../cheats/step.ts";
 import * as autofishMOD from "../cheats/autofish.ts";
 import * as servercrasherMOD from "../cheats/servercrasher.ts";
-import * as rgbcloudsMOD from "../cheats/rgbclouds.ts";
+import * as rgbcloudsMOD from "../cheats/rgbclouds";
 import * as ui from "../gui";
 
 function template(mod) {
