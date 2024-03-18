@@ -24,10 +24,10 @@ jobs:
         node-version: 21
 
     - name: Installing dependencies..
-      run: npm install -g esbuild
+      run: npm install -g bun
 
     - name: Building project..
-      run: esbuild --bundle src/Main.ts --outfile=out/plugin.js --sourcemap=inline # custom
+      run: bun build --bundle ./src/main.ts --outdir=out/ --outfile=out/plugin.js --sourcemap=inline --watch --target browser --entry-naming evokerkingsmod.js # custom
       env:
         NODE_ENV: production
 
