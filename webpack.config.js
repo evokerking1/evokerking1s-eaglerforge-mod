@@ -5,7 +5,7 @@ module.exports = {
   mode: "development",
   devtool: "inline-source-map",
   entry: {
-    main: "./src/Main.ts",
+    main: "./src/dev/evokerking/eaglerfoge/Main.ts",
   },
   output: {
     path: path.resolve(__dirname, './out'),
